@@ -2,8 +2,7 @@
     "builds": [
       {
         "src": "djangoProject/wsgi.py",
-        "use": "@vercel-python-wsgi",
-        "config": { "maxLambdaSize": "15mb" }
+        "use": "@vercel-python-wsgi",    
       }
     ],
     "routes": [
